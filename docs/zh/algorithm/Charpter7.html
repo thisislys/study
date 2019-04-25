@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>算法题答案 | 前端知识点总结</title>
+    <meta name="description" content="任何不能够给你快乐的编程都是耍流氓">
+    <link rel="icon" href="/study/logo.png">
+  <link rel="manifest" href="/study/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/study/icons/apple-touch-icon-152x152.png">
+  <link rel="mask-icon" href="/study/icons/safari-pinned-tab.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/study/assets/css/0.styles.cecb3923.css" as="style"><link rel="preload" href="/study/assets/js/app.f01811f6.js" as="script"><link rel="preload" href="/study/assets/js/21.421a3a51.js" as="script"><link rel="prefetch" href="/study/assets/js/37.8e941b12.js"><link rel="prefetch" href="/study/assets/js/2.1b37ce37.js"><link rel="prefetch" href="/study/assets/js/3.956efdeb.js"><link rel="prefetch" href="/study/assets/js/4.ca5e78a4.js"><link rel="prefetch" href="/study/assets/js/5.86af8c8a.js"><link rel="prefetch" href="/study/assets/js/6.ac2d05a5.js"><link rel="prefetch" href="/study/assets/js/7.25f5d8e9.js"><link rel="prefetch" href="/study/assets/js/8.9c58a54e.js"><link rel="prefetch" href="/study/assets/js/9.ada2cb99.js"><link rel="prefetch" href="/study/assets/js/10.b81d562a.js"><link rel="prefetch" href="/study/assets/js/11.1fad785e.js"><link rel="prefetch" href="/study/assets/js/12.118c439f.js"><link rel="prefetch" href="/study/assets/js/13.762a6dac.js"><link rel="prefetch" href="/study/assets/js/14.6f917f73.js"><link rel="prefetch" href="/study/assets/js/15.8fc11cdd.js"><link rel="prefetch" href="/study/assets/js/16.a171284c.js"><link rel="prefetch" href="/study/assets/js/17.432cbe1a.js"><link rel="prefetch" href="/study/assets/js/18.41fe02b0.js"><link rel="prefetch" href="/study/assets/js/19.b758c31d.js"><link rel="prefetch" href="/study/assets/js/20.118b65e8.js"><link rel="prefetch" href="/study/assets/js/22.e2de0f66.js"><link rel="prefetch" href="/study/assets/js/23.a770d102.js"><link rel="prefetch" href="/study/assets/js/24.7f8a370e.js"><link rel="prefetch" href="/study/assets/js/25.13f3e194.js"><link rel="prefetch" href="/study/assets/js/26.3f95fafb.js"><link rel="prefetch" href="/study/assets/js/27.88953dec.js"><link rel="prefetch" href="/study/assets/js/28.0debf49f.js"><link rel="prefetch" href="/study/assets/js/29.e2047787.js"><link rel="prefetch" href="/study/assets/js/30.18a6b331.js"><link rel="prefetch" href="/study/assets/js/31.c0c4ef64.js"><link rel="prefetch" href="/study/assets/js/32.1e30de5a.js"><link rel="prefetch" href="/study/assets/js/33.6048f5a9.js"><link rel="prefetch" href="/study/assets/js/34.c9105929.js"><link rel="prefetch" href="/study/assets/js/35.b271675c.js"><link rel="prefetch" href="/study/assets/js/36.07a0bc47.js"><link rel="prefetch" href="/study/assets/js/38.3205b93b.js"><link rel="prefetch" href="/study/assets/js/39.14cc0e49.js"><link rel="prefetch" href="/study/assets/js/40.a8735aec.js"><link rel="prefetch" href="/study/assets/js/41.1b2e36ef.js"><link rel="prefetch" href="/study/assets/js/42.1999abd2.js"><link rel="prefetch" href="/study/assets/js/43.a8945865.js"><link rel="prefetch" href="/study/assets/js/44.d81a5540.js"><link rel="prefetch" href="/study/assets/js/45.b8cb2f48.js"><link rel="prefetch" href="/study/assets/js/46.fdd61a8c.js"><link rel="prefetch" href="/study/assets/js/47.69bfd429.js"><link rel="prefetch" href="/study/assets/js/48.04a91514.js"><link rel="prefetch" href="/study/assets/js/49.213d093d.js"><link rel="prefetch" href="/study/assets/js/50.740fbdf6.js"><link rel="prefetch" href="/study/assets/js/51.3d0845e7.js"><link rel="prefetch" href="/study/assets/js/52.c71733b6.js"><link rel="prefetch" href="/study/assets/js/53.8a9f54a2.js"><link rel="prefetch" href="/study/assets/js/54.2a3647da.js"><link rel="prefetch" href="/study/assets/js/55.19fe7411.js"><link rel="prefetch" href="/study/assets/js/56.4b4f1602.js"><link rel="prefetch" href="/study/assets/js/57.280f8185.js"><link rel="prefetch" href="/study/assets/js/58.3300c9ca.js"><link rel="prefetch" href="/study/assets/js/59.f1e2355a.js"><link rel="prefetch" href="/study/assets/js/60.5c6b287e.js"><link rel="prefetch" href="/study/assets/js/61.caf7a640.js"><link rel="prefetch" href="/study/assets/js/62.131d009f.js"><link rel="prefetch" href="/study/assets/js/63.54508735.js"><link rel="prefetch" href="/study/assets/js/64.342db5d6.js"><link rel="prefetch" href="/study/assets/js/65.83535871.js"><link rel="prefetch" href="/study/assets/js/66.427e8500.js"><link rel="prefetch" href="/study/assets/js/67.d75fe954.js"><link rel="prefetch" href="/study/assets/js/68.b5d83573.js"><link rel="prefetch" href="/study/assets/js/69.baa2b7d0.js"><link rel="prefetch" href="/study/assets/js/70.722c1a27.js"><link rel="prefetch" href="/study/assets/js/71.aa01a6af.js"><link rel="prefetch" href="/study/assets/js/72.39ff88f4.js"><link rel="prefetch" href="/study/assets/js/73.e9406cce.js"><link rel="prefetch" href="/study/assets/js/74.150695e1.js"><link rel="prefetch" href="/study/assets/js/75.781cedd2.js">
+    <link rel="stylesheet" href="/study/assets/css/0.styles.cecb3923.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/study/" class="home-link router-link-active"><!----> <span class="site-name">前端知识点总结</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/study/zh/standard/Start.html" class="nav-link">快速搭建开发环境</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">算法</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter4.html" class="nav-link">编程基本功</a></li><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter5.html" class="nav-link">数学趣题(一)</a></li><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter6.html" class="nav-link">数学趣题(二)</a></li><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter7.html" class="nav-link router-link-exact-active router-link-active">部分算法题答案</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">项目相关</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/standard/Standard.html" class="nav-link">前端规范</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Project.html" class="nav-link">项目流程</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Cooperation.html" class="nav-link">前后端交互</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Compatibility.html" class="nav-link">移动端兼容问题</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">知名公司面试题</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/interview/index.html" class="nav-link">面试必看</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interview/ali.html" class="nav-link">阿里巴巴</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interview/longhu.html" class="nav-link">龙湖地产</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">知识点笔记</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/interface/Mind.html" class="nav-link">在线思维导图</a></li><li class="dropdown-item"><!----> <a href="/study/zh/vue/" class="nav-link">Vue</a></li><li class="dropdown-item"><!----> <a href="/study/zh/react/" class="nav-link">React</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miniapp/" class="nav-link">小程序</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/Yuedu.html" class="nav-link">悦读管理后台</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/BlackMarket.html" class="nav-link">BlackMarket</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/TouTiao.html" class="nav-link">TouTiao</a></li></ul></div></div> <a href="https://github.com/jasonandjay/study" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/study/zh/standard/Start.html" class="nav-link">快速搭建开发环境</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">算法</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter4.html" class="nav-link">编程基本功</a></li><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter5.html" class="nav-link">数学趣题(一)</a></li><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter6.html" class="nav-link">数学趣题(二)</a></li><li class="dropdown-item"><!----> <a href="/study/zh/algorithm/Charpter7.html" class="nav-link router-link-exact-active router-link-active">部分算法题答案</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">项目相关</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/standard/Standard.html" class="nav-link">前端规范</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Project.html" class="nav-link">项目流程</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Cooperation.html" class="nav-link">前后端交互</a></li><li class="dropdown-item"><!----> <a href="/study/zh/standard/Compatibility.html" class="nav-link">移动端兼容问题</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">知名公司面试题</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/interview/index.html" class="nav-link">面试必看</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interview/ali.html" class="nav-link">阿里巴巴</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interview/longhu.html" class="nav-link">龙湖地产</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">知识点笔记</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/study/zh/interface/Mind.html" class="nav-link">在线思维导图</a></li><li class="dropdown-item"><!----> <a href="/study/zh/vue/" class="nav-link">Vue</a></li><li class="dropdown-item"><!----> <a href="/study/zh/react/" class="nav-link">React</a></li><li class="dropdown-item"><!----> <a href="/study/zh/miniapp/" class="nav-link">小程序</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/Yuedu.html" class="nav-link">悦读管理后台</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/BlackMarket.html" class="nav-link">BlackMarket</a></li><li class="dropdown-item"><!----> <a href="/study/zh/interface/TouTiao.html" class="nav-link">TouTiao</a></li></ul></div></div> <a href="https://github.com/jasonandjay/study" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav> <div class="carbon-ads"></div> <!----> </div> <div class="page"> <div class="content"><h1 id="算法题答案"><a href="#算法题答案" aria-hidden="true" class="header-anchor">#</a> 算法题答案</h1> <h2 id="第四章"><a href="#第四章" aria-hidden="true" class="header-anchor">#</a> 第四章</h2> <h3 id="_4-2"><a href="#_4-2" aria-hidden="true" class="header-anchor">#</a> 4-2</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;2.编写一个程序,在终端输入一个字符,输出它的ASCII码&lt;/h4&gt;
+    &lt;input class=&quot;asc&quot; type=&quot;text&quot; /&gt;
+    &lt;button onclick=&quot;change()&quot;&gt;查询&lt;/button&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code> let asc = document.querySelector('.asc');
+
+    function change() {
+        var key = asc.value
+        alert(key.charCodeAt(0))
+    }
+</code></pre></div><h3 id="_4-3"><a href="#_4-3" aria-hidden="true" class="header-anchor">#</a> 4-3</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;3.学校进行成绩分级管理,取消分数制,改为成绩分级评定。具体办法是：小于60分为E类；60分至70分（不含70分）为D类；70分至80分（不含）为C类；80分至90分（不含）为B类；90分以上为A类。设计一个程序，对输入的成绩进行等级划分
+    &lt;/h4&gt;
+    &lt;input class=&quot;score&quot; type=&quot;text&quot; /&gt;
+    &lt;button onclick=&quot;find()&quot;&gt;查询&lt;/button&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    let ipt = document.querySelector('.score');
+
+    function find() {
+        var key = ipt.value
+        if (key &lt; 60) {
+            alert('您的成绩分级为E')
+        } else if (key &gt;= 60 &amp;&amp; key &lt; 69) {
+            alert('您的成绩分级为C')
+        } else if (key &gt;= 70 &amp;&amp; key &lt; 79) {
+            alert('您的成绩分级为C')
+        } else if (key &gt;= 80 &amp;&amp; key &lt; 89) {
+            alert('您的成绩分级为B')
+        } else if (key &gt;= 90 &amp;&amp; key &lt;= 100) {
+            alert('您的成绩分级为A')
+        } else {
+            alert('成绩有误，请重新输入！')
+        }
+    }
+</code></pre></div><h3 id="_4-4"><a href="#_4-4" aria-hidden="true" class="header-anchor">#</a> 4-4</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;4.已知a为1，b为01，c为001，又知有一个0/1字符串为：“001011101001011001”，编写一个C程序，按照给定的前缀码表为该字符串译码。&lt;/h4&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    var a = '1',
+        b = '01',
+        c = '001',
+        str = '001011101001011001',
+        strs = &quot;&quot;;
+    for (var i = 0; i &lt; str.length; i++) {
+        let key = str.charAt(i)
+        switch (key) {
+            case '1':
+                strs += 'a';
+                break;
+            case '0':
+                {
+                    i++;
+                    switch (str.charAt(i)) {
+                        case '1':
+                            strs += 'b';
+                            break;
+                        case '0':
+                            i++;
+                            switch (str.charAt(i)) {
+                                case '1':
+                                    strs += 'c';
+                                    break;
+                            }
+                            break;
+                    }
+                }
+                break;
+        }
+    }
+    console.log(strs)
+</code></pre></div><h3 id="_4-5"><a href="#_4-5" aria-hidden="true" class="header-anchor">#</a> 4-5</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;5.给定一个年份，判断该年是否是闰年。&lt;/h4&gt;
+    &lt;input class=&quot;year&quot; type=&quot;text&quot; /&gt;
+    &lt;button onclick=&quot;years1()&quot;&gt;查询&lt;/button&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    let year = document.querySelector('.year');
+
+    function years() {
+        var val = year.value
+        if (val % 4 == 0 &amp;&amp; val % 100 != 0) {
+            alert('此年为闰年')
+        } else {
+            alert('此年为平年')
+        }
+    }
+</code></pre></div><h3 id="_4-7"><a href="#_4-7" aria-hidden="true" class="header-anchor">#</a> 4-7</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;7.矩阵的转置运算&lt;/h4&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    let twoArr = [
+        ['11', '12', '13'],
+        ['21', '22', '23'],
+        ['31', '32', '33']
+    ];
+    var newArr = twoArr.map((v, i) =&gt; {
+        return v.map((val, idx) =&gt; {
+            var a = val.charAt(0)
+            var b = val.charAt(1)
+            if (a != b) {
+                c = a;
+                a = b;
+                b = c;
+            }
+            return a + b
+        })
+    })
+    console.log(newArr)
+</code></pre></div><h3 id="_4-9"><a href="#_4-9" aria-hidden="true" class="header-anchor">#</a> 4-9</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;9.用位运算操作实现两个整数的交换。例如x1=5，x2=10；交换后x1=10，x2=5。&lt;/h4&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    var x1 = 5,
+        x2 = 10;
+    x1 = x1 + x2; //15
+    x2 = x1 - x2; //5
+    x1 = x1 - x2; //10
+    console.log(x1, x2)
+</code></pre></div><h3 id="_4-12"><a href="#_4-12" aria-hidden="true" class="header-anchor">#</a> 4-12</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;12.记录并输出该段程序执行的时间。&lt;/h4&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    console.time('global')
+    console.log('获取我执行的时间')
+    console.timeEnd('global')
+</code></pre></div><h3 id="_4-13"><a href="#_4-13" aria-hidden="true" class="header-anchor">#</a> 4-13</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;13.将输入的十进制数转化为二进制表示。例如：输入十进制数64，输出二进制数表示1000000&lt;/h4&gt;
+    &lt;input class=&quot;ten&quot; type=&quot;text&quot; /&gt;
+    &lt;button onclick=&quot;toTwo()&quot;&gt;转二进制&lt;/button&gt;
+    &lt;input class=&quot;two&quot; type=&quot;text&quot; /&gt;
+    &lt;button onclick=&quot;toTen()&quot;&gt;转十进制&lt;/button&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    let two = document.querySelector('.two');
+
+    function toTen() {
+        var val = two.value
+        console.log(parseInt(val, 2))
+    }
+    let ten = document.querySelector('.ten');
+
+    function toTwo() {
+        var num = ten.value * 1
+        console.log(num.toString(2))
+    }
+</code></pre></div><h3 id="_4-14"><a href="#_4-14" aria-hidden="true" class="header-anchor">#</a> 4-14</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;14.计打印特殊图案&lt;/h4&gt;
+    &lt;input class=&quot;stars&quot; type=&quot;text&quot; /&gt;
+    &lt;button onclick=&quot;line()&quot;&gt;星星行数&lt;/button&gt;
+    &lt;h5 class=&quot;star&quot;&gt;&lt;/h5&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    let star = document.querySelector('.star');
+    let stars = document.querySelector('.stars');
+
+    function line() {
+        var num = stars.value;
+        for (var i = 1; i &lt;= num; i++) {
+            for (var j = num; j &gt;= i; j--) {
+                star.innerHTML += '&amp;ensp;'
+            }
+            for (var z = 1; z &lt;= 2 * i - 1; z++) {
+                star.innerHTML += '*'
+            }
+            star.innerHTML += '&lt;br/&gt;'
+
+        }
+    }
+</code></pre></div><h3 id="_4-15"><a href="#_4-15" aria-hidden="true" class="header-anchor">#</a> 4-15</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;15.6阶杨辉三角&lt;/h4&gt;
+    &lt;h5 class=&quot;sj&quot;&gt;&lt;/h5&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    var yhsj = function (num) {
+        if (num) {
+            var result = [
+                [1]
+            ]
+            for (var i = 1; i &lt; num; i++) {
+                result[i] = []
+                for (var j = 0; j &lt; i + 1; j++) {
+                    result[i][j] = (result[i - 1][j] || 0) + (result[i - 1][j - 1] || 0)
+                }
+            }
+            return result
+        } else {
+            return [];
+        }
+    }
+    console.log(yhsj(6))
+</code></pre></div><h3 id="_4-17"><a href="#_4-17" aria-hidden="true" class="header-anchor">#</a> 4-17</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;17.在一个矩阵中，可能会有这样的元素：它在该行中最大，而在该列中最小。我们把这样的元素称为“鞍点”。一个矩阵中也可能没有“鞍点”。任意输入一个5x5的矩阵，寻找该矩阵中的“鞍点”，并将它在矩阵中的位置（行，列）输出。&lt;/h4&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    var max_row = 0,
+        min_col = 0,
+        col_no = 0,
+        row_no = 0;
+
+    function arr(arr) {
+        for (var i = 0; i &lt; arr.length; i++) {
+            max_row = arr[i][0]
+            //找出本行最大
+            for (j = 0; j &lt; arr[i].length; j++) {
+                if (max_row &lt; arr[i][j]) {
+                    max_row = arr[i][j]
+                    col_no = j;
+                    row_no = i;
+                }
+            }
+            //找出本列最小
+            min_col = max_row;
+            for (var j = 0; j &lt; arr.length; j++) {
+                if (min_col &gt; arr[j][col_no]) {
+                    min_col = arr[j][col_no]
+                }
+                if (max_row == min_col &amp;&amp; col_no == j) {
+                    console.log(arr[row_no][col_no])
+                }
+            }
+        }
+    }
+    arr([
+        [1, 19, 3, 10, 2], //19
+        [2, 23, 4, 25, 2],
+        [3, 24, 0, 16, 27],
+        [4, 25, 6, 17, 8],
+        [5, 26, 7, 8, 2]
+    ])
+</code></pre></div><h3 id="_4-18"><a href="#_4-18" aria-hidden="true" class="header-anchor">#</a> 4-18</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;18.n阶勒让德多项式求解&lt;/h4&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code> function lrdd(n, x) {
+        if (n == 0) return 1;
+        else if (n == 1) return x;
+        else if (n &gt;= 1) return ((2 * n - 1) * x - lrdd(n - 1, x) - (n - 1) * lrdd(n - 2, x)) / n
+    }
+    console.log(lrdd(5, 1.6).toFixed(2))
+</code></pre></div><h3 id="_4-19"><a href="#_4-19" aria-hidden="true" class="header-anchor">#</a> 4-19</h3> <div class="language- extra-class"><pre class="language-text"><code>    &lt;h4&gt;19.编写一个递归函数，实现将输入的任意长度的字符串反向输出的功能。例如输入字符串：ABCD，输出字符串：BCDA&lt;/h4&gt;
+    &lt;input class=&quot;overturn&quot; type=&quot;text&quot; /&gt;
+    &lt;button onclick=&quot;reversal()&quot;&gt;翻转&lt;/button&gt;
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>    let overturn = document.querySelector('.overturn');
+
+    function reversal() {
+        console.log(overturn.value.split(&quot;&quot;).reverse().join(&quot;&quot;))
+    }
+</code></pre></div></div> <div class="page-edit"><div class="edit-link"><a href="https://github.com/jasonandjay/study/edit/master/src/zh/algorithm/Charpter7.md" target="_blank" rel="noopener noreferrer">帮助我们改进内容</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">上次更新: </span> <span class="time">2019-4-25 15:21:23</span></div></div> <!----> <div class="bsa-cpc-wrapper"><div class="bsa-cpc"></div></div></div> <!----></div></div>
+    <script src="/study/assets/js/21.421a3a51.js" defer></script><script src="/study/assets/js/app.f01811f6.js" defer></script>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?c3446600de53c605ba4f6c792e47dff9";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </body>
+</html>
