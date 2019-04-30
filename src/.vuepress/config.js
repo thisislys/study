@@ -109,6 +109,10 @@ module.exports = {
               {
                 text: '移动端兼容问题',
                 link: '/zh/standard/Compatibility.md'
+              },
+              {
+                text: '单页面应用',
+                link: '/zh/standard/SinglePageApplication.md'
               }
             ],
           },
