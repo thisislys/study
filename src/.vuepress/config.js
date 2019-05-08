@@ -172,6 +172,10 @@ module.exports = {
               {
                 text: 'js',
                 link: '/zh/js/js.md'
+              },
+              {
+                text: 'dom Diff',
+                link: '/zh/diff/diff.md'
               }
             ]
           },
